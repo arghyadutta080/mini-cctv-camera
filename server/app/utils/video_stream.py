@@ -19,7 +19,7 @@ def generate_frames():
 
                 # Log the face coordinates to the backend
                 requests.post(
-                    'http://127.0.0.1:5000/log_detection',
+                    'http://127.0.0.1:5000/metadata/log',
                     json={'timestamp': datetime.utcnow().isoformat(
                     ), 'face_count': len(faces)}
                 )

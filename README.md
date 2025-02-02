@@ -66,7 +66,7 @@ This project implements a CCTV camera monitoring system using computer vision an
      - Open browser and navigate to `http://localhost:5173`
      
 
-## Requirements
+## System and Software Requirements
 - Python 3.8+
 - Node.js 14+
 - Webcam or IP camera
